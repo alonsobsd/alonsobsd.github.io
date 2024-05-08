@@ -11,43 +11,43 @@
 
 We need add somes setings to our keycloak settings
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/878e4b7e-d324-446e-864f-25c2015f90d9)
 
 Create a wazuh realm
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/74d7e626-4ed1-4ca3-946f-496f4af73ea7)
 
 Create admin and all_access realm roles
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/e3868173-01fa-4aac-ab4c-35123936522a)
 
 Create a wazuh-admin user used to login to wazuh-dashboards
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/61b55f9b-03bb-4b10-acbe-b528e32bff09)
 
 You can define what kind of actions wazuh-admin user needs before of a success login.
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/2aceb4b8-9a51-4baf-91f0-76696304981e)
 
 Assign admin and all_access roles to wazuh-admin user
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/98b4b0b0-3f55-42ab-a825-1b0ccfa960e5)
 
 Create an initial access token. Don't forget copy token because it can not be retrieved later
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/1e7c4589-9496-4445-9138-1d29726a9948)
 
 We re-use account client id from clients option. This is created automatically when wazuh realm is created. Edit account client id
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/8496aced-0c76-4b40-935f-a23167d88c5a)
 
 Add admin and all_access roles to account roles
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/4716f52b-f388-44c1-adbd-da93b4286061)
 
 Modify realms roles from Client scopes/roles/Mappers
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/303f1284-29ca-4d93-9927-2e2c20f40f7a)
 
 ## Opensearch settings
 
@@ -123,9 +123,13 @@ Restarting opensearch-dashboards for applying changes
 
 If all settings were applied correctly when you want access to Wazuh Dashboards *(https://172.16.0.22:5601)*, it will be redirect to Keycloak Wazuh Realm login page
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/c2189c50-4053-4952-ac33-b1b909100803)
 
-image
+![image](https://github.com/alonsobsd/alonsobsd.github.io/assets/11150989/2d913250-a8df-4a6b-a9cb-2b6f593b478c)
+
+## Credits
+
+Keycloak theme on this how-to was a modify version of https://alxrodav.medium.com/keycloak-custom-login-theme-21be10ad3f4
 
 ## License
 This project is licensed under the BSD-3-Clause license.
