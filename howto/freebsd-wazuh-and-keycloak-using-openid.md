@@ -129,7 +129,7 @@ If all settings were applied correctly when you want access to Wazuh Dashboards 
 
 ## Credits
 
-Keycloak theme on this how-to was a modify version of https://alxrodav.medium.com/keycloak-custom-login-theme-21be10ad3f4
+Keycloak theme on this how-to was a modify of posted version at [Keycloak Custom Login Theme](https://alxrodav.medium.com/keycloak-custom-login-theme-21be10ad3f4)
 
 ## License
 This project is licensed under the BSD-3-Clause license.
